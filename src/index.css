@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Fredoka:wght@400;500;600&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Fredoka:wght@400;500&family=Gabarito:wght@400;500&family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.boxshadow{
+    box-shadow:
+    0 0 5px #03e9f4,
+    0 0 100px
+}
+
+.link {
+    @apply text-[#03e9f4] uppercase tracking-[4px] text-[12px] border-2 border-[#03e9f4] px-[5px] rounded
+  }
+
+.link:hover {
+    @apply text-white bg-[#03e9f4] border-[#03e9f4] boxshadow
+  }
+
+.boxshadow_red{
+    box-shadow:
+    0 0 5px #f40f04,
+    0 0 100px
+}
+
+.link_red {
+    @apply text-white uppercase tracking-[1px] sm:tracking-[4px] text-[10px] sm:text-[16px] px-[6px] py-[5px] rounded
+  }
+
+.link_red:hover {
+    @apply text-white bg-[#f40f04] border-[#f40f04] boxshadow_red
+  }
+
+.boxshadow_white{
+    box-shadow:
+    0 0 5px #00d4ff,
+    0 0 100px
+}
+
+
+.link_white:hover {
+    @apply text-[#000] bg-white border-[#f40f04] uppercase tracking-[4px] text-[10px] sm:text-[16px] px-[6px] py-[5px] rounded boxshadow_white
+}
+
+.boxshadow_gold{
+    box-shadow:
+    0 0 5px #ed9f2f,
+    0 0 25px #ed9f2f,
+    0 0 50px #ed9f2f,
+    0 0 100px
+}
+
+.link_gold {
+  @apply text-white uppercase tracking-[1px] sm:tracking-[4px] text-[10px] sm:text-[16px] px-[6px] py-[5px] rounded
+}
+
+.link_gold:hover {
+    @apply bg-[#ed9f2f] boxshadow_gold
+}
+
+.boxshadow_whatsapp{
+  box-shadow:
+  0 0 5px #1aeb0b,
+  0 0 25px #1aeb0b,
+  0 0 50px #1aeb0b,
+  0 0 100px
+}
+
+.link_whatsapp{
+  @apply duration-150 scale-110 boxshadow_whatsapp animate-spin
+}
+
+.link_whatsapp:hover {
+    @apply duration-300 scale-110 boxshadow_whatsapp
+}
+
+.box::before{
+  @apply content-[''] absolute bg-[conic-gradient(#f4b106_50deg,transparent_90deg)] w-[450px] h-[450px] mt-[15px] ml-[25px] animate-fullSpin
+}
+
+.box::after{
+  @apply relative
+}
+
+.span{
+  @apply absolute
+}
+
+.boxshadow_ring{
+  box-shadow:
+  0 0 0 5px #24ecff33,
+  0 0 0 10px #24ecff22,
+  0 0 0 20px #24ecff11,
+  0 0 20px #24ecff,
+  0 0 50px #24ecff;
+}
+
+.boxshadow_ringtwo{
+  box-shadow:
+  0 0 0 5px #93ff2d44,
+  0 0 0 10px #93ff2d33,
+  0 0 0 20px #93ff2d11,
+  0 0 10px #93ff2d,
+  0 0 50px #93ff2d;
+}
+
+.boxshadow_ringtree{
+  box-shadow:
+  0 0 0 5px #e41cf833,
+  0 0 0 10px #e41cf822,
+  0 0 0 20px #e41cf811,
+  0 0 20px #e41cf8,
+  0 0 50px #e108f5;
+}
+
+.ring_one::before{
+  @apply absolute content-[''] w-[15px] h-[15px] bg-[#24ecff] box-content top-0 top-[6px] right-[2px] rounded-full boxshadow_ring
+}
+
+.ring_two::before{
+  @apply absolute content-[''] w-[15px] h-[15px] bg-[#93ff2d] box-content bottom-0 bottom-[6px] left-[1px] rounded-full boxshadow_ringtwo
+}
+
+.ring_tree::before{
+  @apply absolute content-[''] w-[15px] h-[15px] bg-[#e41cf8] box-content top-0 bottom-[12px] left-[10px] rounded-full boxshadow_ringtree
+}

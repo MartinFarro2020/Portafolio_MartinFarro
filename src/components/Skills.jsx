@@ -62,12 +62,12 @@ const Skills = () => {
                 </div>
     
                 <div className="flex flex-col h-[80px] w-[100px] sm:h-[130px] sm:w-[130px] justify-center items-center mx-auto mt-4 border-solid border-[#9ca1a7] dark:border-[#dfe6e2] border-4 rounded-xl link_gold">
-                    <img className="h-[40px]" src="/public/images/postman-removebg-preview.png" alt="" />
+                    <img className="h-[40px]" src="/images/postman-removebg-preview.png" alt="" />
                     <p className="text-[#d6ded9]">POSTMAN</p>
                 </div>
     
                 <div className="flex flex-col h-[80px] w-[100px] sm:h-[130px] sm:w-[130px] justify-center items-center mx-auto mt-4 border-solid border-[#9ca1a7] dark:border-[#dfe6e2] border-4 rounded-xl link_gold">
-                    <img className="h-[40px]" src=" /public/images/tableplus.png" alt="" />
+                    <img className="h-[40px]" src="/images/tableplus.png" alt="" />
                     <p className="text-[#d6ded9]">  TABLEPLUS</p>
                 </div>
               </section>

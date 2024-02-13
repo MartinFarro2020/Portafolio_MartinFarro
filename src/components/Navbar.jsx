@@ -17,11 +17,11 @@ const Navbar = () => {
         <main id="home">
             <form className="flex sm:m-auto sm:w-[100%]">
                 <header className="fixed top-0 sm:w-full">
-                    <nav className="flex bg-[#6e7173] h-[50px] min-w-[320px] items-center text-white sm:p-3 sm:flex sm:w-full sm:justify-between dark:bg-[white] dark:text-[#020024]">
+                    <nav className="flex bg-[#6e7173] h-[50px] min-w-[350px] items-center text-white sm:flex sm:w-full sm:justify-between dark:bg-[white] dark:text-[#020024]">
                         <div className="flex justify-between gap-4">
                             <div className="flex min-w-[300px] m-0-auto justify-between gap-6">
                                 <div className="flex">
-                                     <a className="flex text-[20px] mx-4 sm:text-[32px] font-fredoka-sans">Martin Farro</a>
+                                     <a className="flex text-[20px] sm:text-[32px] font-fredoka-sans">Martin Farro</a>
                                 </div>
                                 <div className="flex">
                                     <button onClick={handleChangeTheme} className="flex items-center gap-1 font-fredoka-sans text-[10px] sm:text-[16px]">

@@ -53,7 +53,7 @@ const Proyects = () => {
                         <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[190px] rounded-md"
-                                    src="/public/images/Fortuna.png"
+                                    src="/images/Fortuna.png"
                                     alt=""
                                 />
                                 <div className="flex gap-1">
@@ -66,7 +66,7 @@ const Proyects = () => {
                         <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[190px] rounded-md"
-                                    src="/public/images/Ecommers.png"
+                                    src="/images/Ecommers.png"
                                     alt=""
                                 />
                                 <div className="flex gap-1">
@@ -79,7 +79,7 @@ const Proyects = () => {
                         <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] sm:w-[250px] sm:h-[190px] rounded-md"
-                                    src="/public/images/Clima.png"
+                                    src="/images/Clima.png"
                                     alt=""
                                 />
                                 <div className="flex gap-1">

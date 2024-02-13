@@ -29,10 +29,10 @@ const Header = () => {
                     <div className="flex justify-center">
                           <div className="flex gap-4 mt-[230px] sm:mt-[300px]">
                                 <a href="https://www.linkedin.com/feed/" target="_blank">
-                                  <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/public/images/in-removebg-preview.png" alt=""/>
+                                  <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/images/in-removebg-preview.png" alt=""/>
                                 </a>
                                 <a href="https://github.com/dashboard" target="_blank">
-                                  <img className="flex w-[55px] sm:w-[85px] square rounded-full link_gold" src="/public/images/github2.png" alt="" />
+                                  <img className="flex w-[55px] sm:w-[85px] square rounded-full link_gold" src="/images/github2.png" alt="" />
                                 </a>  
                           </div>
                     </div>

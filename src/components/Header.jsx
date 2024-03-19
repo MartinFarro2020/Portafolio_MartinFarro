@@ -27,6 +27,9 @@ const Header = () => {
                     </h1> */}
                     
                     <div className="flex justify-center">
+                          <div>
+                            <p>Martin Farro</p>
+                          </div>
                           <div className="flex gap-4 mt-[230px] sm:mt-[300px]">
                                 <a href="https://www.linkedin.com/in/martin-farro-07545229a" target="_blank">
                                   <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/images/in-removebg-preview.png" alt=""/>

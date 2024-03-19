@@ -27,7 +27,7 @@ const Header = () => {
                     </h1> */}
                     
                     <div className="flex justify-center">
-                          <div>
+                          <div className="text-[white]">
                             <p>Martin Farro</p>
                           </div>
                           <div className="flex gap-4 mt-[230px] sm:mt-[300px]">

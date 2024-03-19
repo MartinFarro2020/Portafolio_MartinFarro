@@ -10,14 +10,14 @@ import Contact from './components/Contact'
 function App() { 
 
   return ( 
-    <section className="nunito-sans dark:bg-[#5072A7] min-h-screen transition-colors">
+    <div className="nunito-sans dark:bg-[#5072A7] min-h-screen transition-colors">
       <Navbar />
       <Header />
       <AboutMe />
       <Skills />
       <Proyects />
       <Contact />
-    </section>
+    </div>
   )
 }
 

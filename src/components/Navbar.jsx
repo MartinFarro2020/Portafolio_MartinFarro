@@ -1,12 +1,43 @@
 import { useEffect, useState } from "react"
+import { FaBars, FaTimes } from "react-icons/fa"
+import AboutMe from "./AboutMe"
+
+const navlinks = [
+  {
+      title:"Home",
+      link:"/",
+  },
+  {
+      title:"ABOUT ME",
+      link:"/about",
+  },
+  {
+    title:"TECNOLOGYS",
+    link:"/services",
+  },
+  {
+    title:"PROYECTS",
+    link:"/services",
+  },
+  {
+      title:"CONTACT",
+      link:"/contact",
+  },
+];
+
 
 const Navbar = () => {
     const [isDarkTheme, setIsDarkTheme] = useState(false)
     const [open, setOpen] = useState(true)
 
+    const handleMenu = () =>{
+      setOpen((prev) => !prev);
+      console.log(open);
+    };
+
     const handleChangeTheme = () => {
         setIsDarkTheme(!isDarkTheme)
-    }
+    };
 
     useEffect(()=>{
         isDarkTheme
@@ -23,6 +54,7 @@ const Navbar = () => {
                                 <div className="flex">
                                      <a className="flex text-[20px] sm:text-[32px] font-fredoka-sans">Martin Farro</a>
                                 </div>
+                                {/*Dark Mode*/}
                                 <div className="flex">
                                     <button onClick={handleChangeTheme} className="flex items-center gap-1 font-fredoka-sans text-[10px] sm:text-[16px]">
                                     {isDarkTheme ? (
@@ -36,12 +68,26 @@ const Navbar = () => {
                                 
                             </div>
 
-
-                            <div className="flex sm:hidden" onClick={() => setOpen(!open)}>
+                            {/*hamburger button*/}          
+                            {/* <div className="flex sm:hidden" onClick={() => setOpen(!open)}>
                               <button className="cursor-pointer dark:color-black">
                                 <i class='bx bx-menu'></i>
                               </button>
+                            </div> */}
+                            <div className="-mr-2 flex md:hidden">
+                                <button 
+                                    type="button" 
+                                    onClick={handleMenu} 
+                                    className="inline-flex items-center justify-center p-2 
+                                    rounden-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 
+                                    focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                                    <span className="sr-only">Open Main Menu</span>
+                                    {open == true ? <FaTimes /> : <FaBars />}            
+                                </button>
                             </div>
+
+
+
 
                         </div>
                         <div className={`${open ? "visibility":"hidden"} flex flex-col bg-[#5072A7] dark:bg-[#012346] justify-center fixed gap-4 min-h-screen mb-[12px] w-[40vw] top-[50px] left-0 right-0 text-[12px] sm:flex sm:flex-row  sm:sticky sm:w-auto sm:min-h-0 sm:mt-[7px] sm:h-[40px] sm:text-[16px] sm:bg-[#6e7173] id=nav-links`}>

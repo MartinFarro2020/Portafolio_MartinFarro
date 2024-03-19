@@ -31,7 +31,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className='flex gap-[40px] items-center justify-center mt-[350px]'>
-                                <input type="submit" value="Enviar" className='flex bg-[#f4b106] text-[#000] font-fredoka-sans text-[20px] rounded-md w-[100px] gap-8 link_gold'/>
+                                <input type="submit" value="Enviar" className='flex items-center bg-[#f4b106] text-[#000] font-fredoka-sans text-[20px] rounded-md w-[100px] gap-8 link_gold'/>
                                 <div className='flex'>
                                     <a href="https://wa.me/+51955482740?text=Quiero%20realizar%20un%20proyecto%20web" target="_blank">
                                         <img className="ease-in rounded-full w-[60px] square link_whatsapp" src="/images/whatsappicono.png" alt=""/>

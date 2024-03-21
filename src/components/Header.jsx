@@ -38,7 +38,7 @@ const Header = () => {
                                     <a href="https://www.linkedin.com/in/martin-farro-07545229a" target="_blank">
                                       <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/images/in-removebg-preview.png" alt=""/>
                                     </a>
-                                    <a href="https://github.com/dashboard" target="_blank">
+                                    <a href="https://github.com/MartinFarro2020/Portafolio_MartinFarro/tree/main/src" target="_blank">
                                       <img className="flex w-[55px] sm:w-[85px] square rounded-full link_gold" src="/images/github2.png" alt="" />
                                     </a>  
                               </div>

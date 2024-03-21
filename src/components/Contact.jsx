@@ -22,11 +22,11 @@ const Contact = () => {
                             <div className='flex absolute overflow-hidden box w-[300px] sm:[390px] rounded-xl justify-center items-center'>
                                 <div className='flex flex-col relative bg-[#05458b] dark:bg-[#3b3a39] w-[295px] sm:[385px] rounded-xl'>
                                     <p className='flex text-white font-fredoka-sans text-[20px] justify-center'>Contactame!!</p>
-                                    <label className='text-white'>Name</label>
+                                    <label className='text-white'>Nombre</label>
                                     <input type="text" name="user_name"  placeholder='Nombre'/>
-                                    <label className='text-white'>Email</label>
+                                    <label className='text-white'>Correo</label>
                                     <input type="email" name="user_email" placeholder="correo@gmail.com"/>
-                                    <label className='text-white'>Message</label>
+                                    <label className='text-white'>Mensaje</label>
                                     <textarea name="message" className='h-[100px] rounded-b-xl' placeholder='mensaje'/>   
                                 </div>
                             </div>

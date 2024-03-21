@@ -3,8 +3,9 @@ const Proyects = () => {
       <main className="h-screen" id="proyects">
             <form className="grid justify-center items-center gap-8">
                     <p className="flex text-[20px] sm:text-[40px] text-[#9BA4ED] mt-[50px] justify-center items-center">
-                        Website
-                    <span className="text-white">-Proyects</span>
+                    Sitio web
+
+                    <span className="text-white">-Proyectos</span>
                     </p>
 
                 {/*Proyects  */}

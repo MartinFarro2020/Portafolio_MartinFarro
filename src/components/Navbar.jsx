@@ -94,19 +94,19 @@ const Navbar = () => {
 
                             <ul className="flex flex-col items-center gap-4 sm:flex-row sm:flex sm:gap-4 sm:mx-auto font-fredoka-sans dark:bg-[#012346] sm:dark:bg-white">
                                 <li>
-                                  <a href="#home" className="bg-[#f40f04] text-white px-2 link_white">HOME</a>
+                                  <a href="#home" className="bg-[#f40f04] text-white px-2 link_white">INICIO</a>
                                 </li>
                                 <li>
-                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#aboutme">ABOUT ME</a>
+                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#aboutme">ACERCA</a>
                                 </li>
                                 <li>
-                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#skills">TECNOLOGYS</a>
+                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#skills">TECNOLOGIAS</a>
                                 </li>
                                 <li>
-                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#proyects">PROYECTS</a>
+                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#proyects">PROYECT0S</a>
                                 </li>
                                 <li>
-                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#contact">CONTACT</a>
+                                  <a className="link_gold dark:text-white sm:dark:text-[#000306]" href="#contact">CONTACTO</a>
                                 </li>
                             </ul>
                         </div>

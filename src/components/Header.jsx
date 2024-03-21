@@ -26,19 +26,24 @@ const Header = () => {
                       <span>R</span>
                     </h1> */}
                     
-                    <div className="flex justify-center">
-                          
-                          <div className="flex gap-4 mt-[230px] sm:mt-[300px]">
-                                <div className="flex text-white">
-                                  <p>Martin Farro</p>
-                                </div>
-                                <a href="https://www.linkedin.com/in/martin-farro-07545229a" target="_blank">
-                                  <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/images/in-removebg-preview.png" alt=""/>
-                                </a>
-                                <a href="https://github.com/dashboard" target="_blank">
-                                  <img className="flex w-[55px] sm:w-[85px] square rounded-full link_gold" src="/images/github2.png" alt="" />
-                                </a>  
+                    <div className="flex flex-col">
+                        
+                          <div  className="flex flex-col justify-center items-center mt-[230px] sm:mt-[300px] gap-14">
+                              <div className="flex flex-col justify-center items-center">
+                                    <p className="flex text-[40px] text-[#94a3b8] dark:text-[#1e293b] font-fredoka-sans">MARTIN FARRO</p>
+                                    <p className="flex text-[30px] text-[#e9aa2b] dark:text-[#FFC300] font-fredoka-sans">Desarrollador Web Full Stack</p>
+                              </div>
+
+                              <div className="flex items-center gap-4 ">
+                                    <a href="https://www.linkedin.com/in/martin-farro-07545229a" target="_blank">
+                                      <img className="flex w-[55px] sm:w-[85px] square link_gold" src="/images/in-removebg-preview.png" alt=""/>
+                                    </a>
+                                    <a href="https://github.com/dashboard" target="_blank">
+                                      <img className="flex w-[55px] sm:w-[85px] square rounded-full link_gold" src="/images/github2.png" alt="" />
+                                    </a>  
+                              </div>
                           </div>
+                          
                     </div>
           </div>
         </section>

@@ -18,7 +18,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable05-martinfarro.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable05-martinfarro.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://github.com/MartinFarro2020/Entregable05" target="_blank">GitHub</a></button>
                                 </div>
                         </div>
@@ -31,7 +31,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable03-martinfarro.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable03-martinfarro.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://github.com/MartinFarro2020/Entregable03" target="_blank">GitHub</a></button>
                                 </div>
                         </div>
@@ -44,7 +44,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable04-martinfarro.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable04-martinfarro.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://github.com/MartinFarro2020/Entregable04" target="_blank">GitHub</a></button>
                                 </div>
                         </div>
@@ -57,7 +57,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md border-white link"><a href="https://entregable01-martinfarro.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md border-white link"><a href="https://entregable01-martinfarro.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md border-white link"><a href="https://github.com/MartinFarro2020/Entregable01" target="_blank">Git Hub</a></button>
                                 </div>
                         </div>
@@ -70,7 +70,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] border-[2px] sm:w-[120px] sm:h-[30px] rounded-md gap-2 border-white link"><a href="https://pastor-martin-farro-martinez-g28.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] border-[2px] sm:w-[120px] sm:h-[30px] rounded-md gap-2 border-white link"><a href="https://pastor-martin-farro-martinez-g28.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] border-[2px] sm:w-[120px] sm:h-[30px] rounded-md gap-2 border-white link"><a href="https://github.com/MartinFarro2020/Fundamentos_Ecommerce" target="_blank">GitHub</a></button>
                                 </div>
                         </div>
@@ -83,7 +83,7 @@ const Proyects = () => {
                                     alt=""
                                 />
                                 <div className="flex gap-1">
-                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable02-martinfarro.netlify.app/" target="_blank">Tailwin</a></button>
+                                    <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://entregable02-martinfarro.netlify.app/" target="_blank">Sitio Web</a></button>
                                     <button className="w-[80px] h-[30px] sm:w-[120px] sm:h-[30px] border-[2px] rounded-md gap-2 border-white link"><a href="https://github.com/MartinFarro2020/Entregable02" target="_blank">Git Hub</a></button>
                                 </div>
                         </div>

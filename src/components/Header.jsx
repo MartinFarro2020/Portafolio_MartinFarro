@@ -31,7 +31,7 @@ const Header = () => {
                           <div  className="flex flex-col justify-center items-center mt-[230px] sm:mt-[300px] gap-14">
                               <div className="flex flex-col justify-center items-center">
                                     <p className="flex text-[40px] text-[#94a3b8] dark:text-[#1e293b] font-fredoka-sans">MARTIN FARRO</p>
-                                    <p className="flex text-[30px] text-[#e9aa2b] dark:text-[#FFC300] font-fredoka-sans">Desarrollador Web Full Stack</p>
+                                    <p className="flex text-[20px] sm:text-[30px] text-[#e9aa2b] dark:text-[#FFC300] font-fredoka-sans">Desarrollador Web Full Stack</p>
                               </div>
 
                               <div className="flex items-center gap-4 ">

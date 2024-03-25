@@ -15,7 +15,7 @@ const AboutMe = () => {
                 el desarrollo de aplicaciones web hasta la implementación de sistemas complejos. */}
                 Permíteme compartir contigo un vistazo de lo que puedo ofrecer:
                 </p>
-                <a href="/public/images/CV_Martín Farro Martinez 2024.pdf" 
+                <a href="/images/CV_Martín Farro Martinez 2024.pdf" 
                    target="_blank" 
                    className="flex justify-center cursor-pointer bg-[#f4b106] w-[150px] h-[30px] rounded-md text-[#000]
                    font-fredoka-sans text-[20px]">

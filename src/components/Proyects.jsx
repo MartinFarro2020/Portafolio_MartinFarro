@@ -12,7 +12,7 @@ const Proyects = () => {
                     <section className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
                         
                         {/*pokedex*/}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] sm:justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] sm:justify-center items-center border-solid border-[#9ca1a7] dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[197px] rounded-md"
                                     src="/images/Pokedex.png"
@@ -25,7 +25,7 @@ const Proyects = () => {
                         </div>
             
                         {/* Rick&Morty */}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] items-center border-solid border-[#9ca1a7] dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[200px] rounded-md"
                                     src="/images/Rick&Morty.png"
@@ -38,7 +38,7 @@ const Proyects = () => {
                         </div>
             
                         {/* Usuarios */}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] justify-center items-center border-solid border-[#9ca1a7] dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[200px] rounded-md"
                                     src="/images/Usuarios.png"
@@ -51,7 +51,7 @@ const Proyects = () => {
                         </div>
             
                         {/* Fortuna */}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] justify-center items-center border-solid border-[#9ca1a7] dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[200px] rounded-md"
                                     src="/images/Fortuna.png"
@@ -64,7 +64,7 @@ const Proyects = () => {
                         </div>
             
                         {/* Ecommers */}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] justify-center items-center border-solid border-[#9ca1a7]  dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] w-[160px] sm:w-[250px] sm:h-[200px] rounded-md"
                                     src="/images/Ecommers.png"
@@ -77,7 +77,7 @@ const Proyects = () => {
                         </div>
             
                         {/* Clima */}
-                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[230px] justify-center items-center border-solid border-[#9ca1a7] border-4 rounded-xl">
+                        <div className="flex flex-col w-[170px] sm:w-[250px] sm:h-[235px] justify-center items-center border-solid border-[#9ca1a7]  dark:border-white border-4 rounded-xl">
                                 <img
                                     className="flex h-[100px] sm:w-[250px] sm:h-[200px] rounded-md"
                                     src="/images/Clima.png"
